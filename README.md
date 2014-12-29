@@ -23,4 +23,6 @@ Use with:
 
 **.i3status.conf** - Config file for i3 window manager's status line (usually at the bottom of the screen).
 
+**Preferences.sublime-settings** - User settings file for Sublime Text 3. Should be copied to .config/sublime-text-3/Packages/User/.
+
 **term_colors.txt** - Preferred terminal color definitions in plain text form for reference.
