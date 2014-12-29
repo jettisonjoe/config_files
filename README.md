@@ -1,11 +1,21 @@
 config_files
 ============
-A collection of user-level config files for Linux systems. Files and directories are structured as they would be relative to a Linux user's home directory. Use them by symlinking to the files in this collection.
+A collection of user-level config files and other extras for Linux systems.
 
 
-**.bashrc** - Universal bash startup file. Sources ~/.bashrc_local for machine-specific bash startup commands.
+**.bashrc** - Universal bash startup file. Sources ~/.bashrc_local for machine-specific bash startup commands. Can be symlinked from ~/.bashrc.
 
-**.i3/** - Configuration directory for the i3 window manager.
+**.fonts/** - User-installed font files.
+
+**.fonts.conf** - Config to actually enable user-installed fonts.
+
+**gnome-terminal-conf.xml** - Gnome terminal config file.
+Generate with:
+    gconftool-2 --dump '/apps/gnome-terminal' > [filename]
+Use with:
+    gconftool-2 --load [filename]
+
+**.i3/** - Configuration directory for the i3 window manager. Cannot be symlinked.
 
 **.i3status.conf** - Config file for i3 window manager's status line (usually at the bottom of the screen).
 
