@@ -11,9 +11,13 @@ A collection of user-level config files and other extras for Linux systems.
 
 **gnome-terminal-conf.xml** - Gnome terminal config file.
 Generate with:
+
     gconftool-2 --dump '/apps/gnome-terminal' > [filename]
+
 Use with:
+
     gconftool-2 --load [filename]
+
 
 **.i3/** - Configuration directory for the i3 window manager. Cannot be symlinked.
 
