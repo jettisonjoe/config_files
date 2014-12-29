@@ -1,0 +1,16 @@
+black             #202020	32 32 32
+brightblack       #2f2f2f	47 47 47
+red               #da4939	218 73 57
+brightred         #ff877a
+green             #519f50	81 159 80
+brightgreen       #a5c261	165 194 97
+yellow            #cc7833	204 120 51
+brightyellow      #bc9458	188 148 88
+blue              #6d9cbe	109 156 190
+brightblue        #b2c5d3	178 197 211
+magenta           #9f5079	159 80 121
+brightmagenta     #a761c2	167 97 194
+cyan              #5b8794
+brightcyan        #99bcc5
+white             #dddddd	221 221 221
+brightwhite       #ececec	236 236 236

@@ -8,3 +8,5 @@ A collection of user-level config files for Linux systems. Files and directories
 **.i3/** - Configuration directory for the i3 window manager.
 
 **.i3status.conf** - Config file for i3 window manager's status line (usually at the bottom of the screen).
+
+**term_colors.txt** - Preferred terminal color definitions in plain text form for reference.
