@@ -113,7 +113,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-PROMPT_COMMAND='echo -ne "\033[1;30m"; printf %"$(($COLUMNS-11))"s | tr \  \_; echo -n "/ "; date +%H:%M:%S | tr -d "\n"; echo -e "\033[0;39m"'
+PROMPT_COMMAND='echo -e "\033[1;30m"; printf %"$(($COLUMNS-11))"s | tr \  \_; echo -n "/ "; date +%H:%M:%S | tr -d "\n"; echo -e "\033[0;39m"'
 # PROMPT_COMMAND='echo -ne "\033[1;30m"; printf %"$(($COLUMNS))"s | tr \  \_; echo -e "\033[0;39m"'
 
 # Execute machine-specific .bashrc contents.
