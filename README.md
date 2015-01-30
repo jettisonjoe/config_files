@@ -26,3 +26,5 @@ Use with:
 **Preferences.sublime-settings** - User settings file for Sublime Text 3. Should be copied to .config/sublime-text-3/Packages/User/.
 
 **term_colors.txt** - Preferred terminal color definitions in plain text form for reference.
+
+**.tmux.conf** - Tmux config file. Can be symlinked.
