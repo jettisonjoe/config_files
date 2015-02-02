@@ -28,3 +28,8 @@ Use with:
 **term_colors.txt** - Preferred terminal color definitions in plain text form for reference.
 
 **.tmux.conf** - Tmux config file. Can be symlinked.
+
+**xterm-256color.ti** - Terminal definition for xterm 265 colors.
+Use by doing:
+
+    tic xterm-256color.ti
