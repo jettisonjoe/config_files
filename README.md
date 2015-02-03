@@ -33,3 +33,5 @@ Use with:
 Use by doing:
 
     tic xterm-256color.ti
+
+**.irssi/default.theme** - Default irssi theme.
