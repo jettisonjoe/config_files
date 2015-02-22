@@ -1,0 +1,5 @@
+directory = ~/Downloads
+encryption = require_RC4
+load = *.torrent
+upload_rate = 200
+max_uploads = 2
