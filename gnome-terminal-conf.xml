@@ -588,7 +588,7 @@
     <entry>
       <key>profiles/Profile0/bold_color</key>
       <value>
-        <string>#ECECECECECEC</string>
+        <string>#F9F9F9F9F9F9</string>
       </value>
     </entry>
     <entry>
@@ -654,7 +654,7 @@
     <entry>
       <key>profiles/Profile0/foreground_color</key>
       <value>
-        <string>#DDDDDDDDDDDD</string>
+        <string>#D6D6D6D6D6D6</string>
       </value>
     </entry>
     <entry>
@@ -666,7 +666,7 @@
     <entry>
       <key>profiles/Profile0/palette</key>
       <value>
-        <string>#202020202020:#DADA49493938:#51519F9F5050:#CCCC78773332:#6D6D9C9BBEBE:#9F9F50507978:#5B8F87D4947A:#DDDDDDDDDDDD:#666666666666:#FFFF872C7A06:#A5A5C2C26161:#BCBC94945858:#B2B2C5C5D3D3:#A7A76161C2C2:#99C1BC3EC5F8:#ECECECECECEC</string>
+        <string>#202020202020:#CFCF53534040:#51519F9F5050:#CFCF84843030:#7979A0A0C8C8:#AEAE62628A8A:#5B5B87879494:#D6D6D6D6D6D6:#808080808080:#FFFF87877A7A:#A5A5C2C26161:#CBCBA7A76363:#ABABC1C1DADA:#AEAE7D7DC1C1:#9292BFBFBFBF:#F9F9F9F9F9F9</string>
       </value>
     </entry>
     <entry>
