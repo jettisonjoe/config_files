@@ -1,4 +1,4 @@
-config_files
+dotfiles
 ============
 A collection of user-level config files and other extras for Linux systems.
 
