@@ -20,5 +20,5 @@ RPROMPT='$(parse_git_dirty)$(status_pip)%{$reset_color%}'
 
 # TODO(joe): Add colorization for other types of repos. Possibly move coloring
 #            directly into status_pip. The below are added via parse_git_dirty.
-ZSH_THEME_GIT_PROMPT_DIRTY="%{$terminfo[bold]$fg[red]%}"
+ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[red]%}"
 ZSH_THEME_GIT_PROMPT_CLEAN="%{$terminfo[bold]$fg[black]%}"
