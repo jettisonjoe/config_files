@@ -20,7 +20,7 @@ set $mod Mod4
 # chose a FreeType font, such as:
 # font pango:DejaVu Sans Mono 10
 # font pango:Ubuntu Mono 11
-font pango:Gohufont 9
+font pango:Gohufont 8
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -154,7 +154,7 @@ bar {
 	#statusline #ffffff
 	#separator #ff0000
 
-	focused_workspace  #ffffff #ffffff #000000
+	focused_workspace  #f18260 #f18260 #000000
 	active_workspace   #aaaaaa #aaaaaa #000000
 	inactive_workspace #999999 #999999 #000000
 	urgent_workspace   #000000 #ff0000 #000000
@@ -164,10 +164,10 @@ bar {
 
 # color settings
 # class                 border  backgr. text    indicator
-client.focused          #ffffff #ffffff #000000 #2e9ef4
-client.focused_inactive #999999 #999999 #000000 #484e50
-client.unfocused        #888888 #888888 #000000 #292d2e
-client.urgent           #2f343a #900000 #ffffff #900000
+client.focused          #e0e0e0 #e0e0e0 #202020 #e0e0e0
+client.focused_inactive #989898 #989898 #202020 #989898
+client.unfocused        #707070 #707070 #383838 #808080
+client.urgent           #f18260 #f18260 #202020 #f18260
 # client.placeholder      #000000 #0c0c0c #ffffff #000000
 
 # custom keybinds
