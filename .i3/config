@@ -154,10 +154,10 @@ bar {
 	#statusline #ffffff
 	#separator #ff0000
 
-	focused_workspace  #f18260 #f18260 #000000
-	active_workspace   #aaaaaa #aaaaaa #000000
-	inactive_workspace #999999 #999999 #000000
-	urgent_workspace   #000000 #ff0000 #000000
+	focused_workspace  #e0e0e0 #e0e0e0 #202020
+	active_workspace   #e0e0e0 #e0e0e0 #202020
+	inactive_workspace #707070 #707070 #383838
+	urgent_workspace   #f18260 #f18260 #202020
     }
 
 }
