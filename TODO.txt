@@ -1,0 +1,24 @@
+Stuff that an installer script would need to do:
+  * if Python, bootstrap a Python environment
+  * if not present, download, install, and configure git
+  * create a ~/src directory
+  * clone into dotfiles repo
+  * download and run oh-my-zsh's installer script
+  * clone powerlevel10k in oh-my-zsh's custom themes dir
+  * install .p10k.sh
+  * install .zshrc
+  * install .tmux.conf
+
+On dev machines (local and remote):
+  * create an ssh key and dist it to GitHub
+  * change dotfiles remove over to ssh-based one
+
+On main, graphics-capable workstations:
+  * download and install Gohu nerd font
+  * install terminal emulator
+  * install terminal colors and settings
+  * download and install ST3
+  * activate ST3 license
+  * install package control and ST3 packages
+  * install ST3 preferences
+  * add 'src' directory to ST3 default project
