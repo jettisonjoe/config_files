@@ -478,8 +478,8 @@
 
   ###################[ command_execution_time: duration of the last command ]###################
   # Execution time color.
-  typeset -g POWERLEVEL9K_COMMAND_EXECUTION_TIME_FOREGROUND=232
-  typeset -g POWERLEVEL9K_COMMAND_EXECUTION_TIME_BACKGROUND=240
+  typeset -g POWERLEVEL9K_COMMAND_EXECUTION_TIME_FOREGROUND=13
+  typeset -g POWERLEVEL9K_COMMAND_EXECUTION_TIME_BACKGROUND=238
   # Show duration of the last command if takes longer than this many seconds.
   typeset -g POWERLEVEL9K_COMMAND_EXECUTION_TIME_THRESHOLD=3
   # Show this many fractional digits. Zero means round to seconds.
@@ -564,8 +564,8 @@
 
   ##################################[ context: user@hostname ]##################################
   # Default context color.
-  typeset -g POWERLEVEL9K_CONTEXT_FOREGROUND=3
-  typeset -g POWERLEVEL9K_CONTEXT_BACKGROUND=0
+  typeset -g POWERLEVEL9K_CONTEXT_FOREGROUND=232
+  typeset -g POWERLEVEL9K_CONTEXT_BACKGROUND=242
   # Default context format: %n is username, %m is hostname.
   typeset -g POWERLEVEL9K_CONTEXT_TEMPLATE='%n@%m'
 
@@ -586,8 +586,8 @@
 
   ###[ virtualenv: python virtual environment (https://docs.python.org/3/library/venv.html) ]###
   # Python virtual environment color.
-  typeset -g POWERLEVEL9K_VIRTUALENV_FOREGROUND=137
-  typeset -g POWERLEVEL9K_VIRTUALENV_BACKGROUND=60
+  typeset -g POWERLEVEL9K_VIRTUALENV_FOREGROUND=220
+  typeset -g POWERLEVEL9K_VIRTUALENV_BACKGROUND=25
   # Don't show Python version next to the virtual environment name.
   typeset -g POWERLEVEL9K_VIRTUALENV_SHOW_PYTHON_VERSION=false
   # Separate environment name from Python version only with a space.
@@ -597,8 +597,8 @@
 
   #####################[ anaconda: conda environment (https://conda.io/) ]######################
   # Anaconda environment color.
-  typeset -g POWERLEVEL9K_ANACONDA_FOREGROUND=137
-  typeset -g POWERLEVEL9K_ANACONDA_BACKGROUND=60
+  typeset -g POWERLEVEL9K_ANACONDA_FOREGROUND=220
+  typeset -g POWERLEVEL9K_ANACONDA_BACKGROUND=25
   # Don't show Python version next to the anaconda environment name.
   typeset -g POWERLEVEL9K_ANACONDA_SHOW_PYTHON_VERSION=false
   # Separate environment name from Python version only with a space.
@@ -608,8 +608,8 @@
 
   ################[ pyenv: python environment (https://github.com/pyenv/pyenv) ]################
   # Pyenv color.
-  typeset -g POWERLEVEL9K_PYENV_FOREGROUND=137
-  typeset -g POWERLEVEL9K_PYENV_BACKGROUND=60
+  typeset -g POWERLEVEL9K_PYENV_FOREGROUND=220
+  typeset -g POWERLEVEL9K_PYENV_BACKGROUND=25
   # Don't show the current Python version if it's the same as global.
   typeset -g POWERLEVEL9K_PYENV_PROMPT_ALWAYS_SHOW=false
   # Custom icon.
@@ -680,7 +680,7 @@
   # typeset -g POWERLEVEL9K_DOTNET_VERSION_VISUAL_IDENTIFIER_EXPANSION='⭐'
 
   #############[ rbenv: ruby version from rbenv (https://github.com/rbenv/rbenv) ]##############
-  # Rbenv color. 
+  # Rbenv color.
   typeset -g POWERLEVEL9K_RBENV_FOREGROUND=131
   typeset -g POWERLEVEL9K_RBENV_BACKGROUND=59
   # Hide ruby version if it doesn't come from one of these sources.
@@ -882,7 +882,7 @@
   ####################################[ time: current time ]####################################
   # Current time color.
   typeset -g POWERLEVEL9K_TIME_FOREGROUND=232
-  typeset -g POWERLEVEL9K_TIME_BACKGROUND=243
+  typeset -g POWERLEVEL9K_TIME_BACKGROUND=242
   # Format for the current time: 09:51:02. See `man 3 strftime`.
   typeset -g POWERLEVEL9K_TIME_FORMAT='%D{%H:%M:%S}'
   # If set to true, time will update when you hit enter. This way prompts for the past
