@@ -69,13 +69,13 @@
       # aws                     # aws profile (https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html)
       # aws_eb_env            # aws elastic beanstalk environment (https://aws.amazon.com/elasticbeanstalk/)
       # azure                 # azure account name (https://docs.microsoft.com/en-us/cli/azure)
-      context                 # user@hostname
       nordvpn                 # nordvpn connection status, linux only (https://nordvpn.com/)
       ranger                  # ranger shell (https://github.com/ranger/ranger)
       vi_mode                 # vi mode (you don't need this if you've enabled prompt_char)
       # vpn_ip                # virtual private network indicator
       # ram                   # free RAM
       # load                  # CPU load
+      context                 # user@hostname
       time                    # current time
       # =========================[ Line #2 ]=========================
       newline
@@ -493,8 +493,8 @@
 
   #######################[ background_jobs: presence of background jobs ]#######################
   # Background jobs color.
-  typeset -g POWERLEVEL9K_BACKGROUND_JOBS_FOREGROUND=232
-  typeset -g POWERLEVEL9K_BACKGROUND_JOBS_BACKGROUND=241
+  typeset -g POWERLEVEL9K_BACKGROUND_JOBS_FOREGROUND=4
+  typeset -g POWERLEVEL9K_BACKGROUND_JOBS_BACKGROUND=238
   # Don't show the number of background jobs.
   typeset -g POWERLEVEL9K_BACKGROUND_JOBS_VERBOSE=true
   # Icon to show when there are background jobs.
