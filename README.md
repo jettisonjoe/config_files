@@ -19,6 +19,8 @@ A collection of user-level config files and other extras for Linux systems.
 
 **.rtorrent.rc - rtorrent settings.
 
+**settings.json** - Visual Studio Code user settings file.
+
 **.tmux.conf** - Tmux config file. Can be symlinked.
 
 **.zshrc** - Universal zsh startup file.

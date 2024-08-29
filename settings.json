@@ -1,0 +1,59 @@
+{
+    "workbench.colorTheme": "Absent (rainglow)",
+    "gruvboxMaterial.darkContrast": "soft",
+    "gruvboxMaterial.darkWorkbench": "flat",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "terminal.integrated.defaultProfile.windows": "Debian (WSL)",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "liveshare.connectionMode": "relay",
+    // "editor.fontFamily": "GohuFont Nerd Font",
+    "editor.fontFamily": "Hack Nerd Font",
+        "editor.fontSize": 11,
+    // "terminal.integrated.fontFamily": "GohuFont Nerd Font",
+    "terminal.integrated.fontFamily": "Hack Nerd Font",
+    "terminal.integrated.fontSize": 11,
+    "editor.rulers": [
+        80,
+        88,
+        100,
+    ],
+    "editor.guides.indentation": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "workbench.editor.empty.hint": "hidden",
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "workbench.colorCustomizations": {
+        "terminal.background":"#202224",
+        "terminal.foreground":"#c5c8c6",
+        "terminalCursor.background":"#202224",
+        "terminalCursor.foreground":"#c5c8c6",
+        "terminal.ansiBlack":"#202224",
+        "terminal.ansiBlue":"#6787a1",
+        "terminal.ansiBrightBlack":"#424242",
+        "terminal.ansiBrightBlue":"#95abbe",
+        "terminal.ansiBrightCyan":"#aaccc8",
+        "terminal.ansiBrightGreen":"#bcc27c",
+        "terminal.ansiBrightMagenta":"#bba1c2",
+        "terminal.ansiBrightRed":"#f28f8f",
+        "terminal.ansiBrightWhite":"#c5c8c6",
+        "terminal.ansiBrightYellow":"#f2b685",
+        "terminal.ansiCyan":"#709a94",
+        "terminal.ansiGreen":"#acb64f",
+        "terminal.ansiMagenta":"#907499",
+        "terminal.ansiRed":"#cc6666",
+        "terminal.ansiWhite":"#707880",
+        "terminal.ansiYellow":"#d38c5a"
+    },
+    "workbench.panel.defaultLocation": "bottom",
+    "terminal.integrated.minimumContrastRatio": 1,
+    "git.ignoreMissingGitWarning": true,
+}
